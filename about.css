@@ -11,9 +11,6 @@ body {
   width: 100%;
   overflow-x: hidden; 
 }
-
-
-
 .grid-container {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -24,7 +21,6 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
 
  .menu-icon {
   display: none;
@@ -137,6 +133,23 @@ body {
   text-align: center;
   margin-top: 45px;
 }
+
+
+
+.text-section .birth {
+font-size: 34px;
+}
+
+.text-section .age{
+  font-size: 33px;
+}
+
+
+
+
+
+
+
 .footer {
   grid-column: 1/10;
   height: 10vh; 
